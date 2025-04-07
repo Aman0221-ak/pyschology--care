@@ -1,0 +1,59 @@
+.psychologist-detail-container {
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .detail-card {
+    display: flex;
+    gap: 40px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .detail-card img {
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .details h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 16px;
+  }
+  
+  .details p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+  }
+  
+  .book-btn {
+    margin-top: 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .book-btn:hover {
+    background-color: #357ab8;
+  }
+  
+  .not-found {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+    color: #e74c3c;
+  }
+  

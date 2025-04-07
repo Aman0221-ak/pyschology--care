@@ -1,0 +1,43 @@
+.custom-alert-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  max-width: 300px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: slideIn 0.4s ease;
+}
+
+.custom-alert-success {
+  background-color: #4caf50;
+}
+
+.custom-alert-error {
+  background-color: #f44336;
+}
+
+.custom-alert-container button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

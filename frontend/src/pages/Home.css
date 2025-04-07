@@ -1,0 +1,361 @@
+/* src/pages/Home.css */
+
+.home-container {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .hero-section {
+    background-color: #f3f4f8;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 16px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 24px;
+  }
+  
+  .book-btn {
+    padding: 12px 24px;
+    background-color: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #357ab8;
+  }
+  
+  .services-section {
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .service-card {
+    width: 280px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .view-btn {
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff;
+    background-color: #0077cc;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .view-btn:hover {
+    background-color: #005fa3;
+  }
+
+  .resources-section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .resources-section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .resources-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .resource-card {
+    background: #ffffff;
+    padding: 16px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .resource-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .resource-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .resource-card p {
+    font-size: 14px;
+    color: #777;
+  }
+  /* ----------- Book Cards Styling ----------- */
+.books-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.books-section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-card {
+  background: #fff;
+  padding: 16px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-image {
+  position: relative;
+}
+
+.book-image img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.book-popup {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.book-image:hover .book-popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ----------- Video Cards Styling ----------- */
+.videos-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.videos-section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-card {
+  background: #fff;
+  padding: 16px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+}
+
+.video-thumbnail {
+  position: relative;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  font-size: 30px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.video-popup {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.video-thumbnail:hover .video-popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ---- Video Modal ---- */
+.video-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-modal-content {
+  position: relative;
+  background: #fff;
+  padding: 0;
+  max-width: 800px;
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-modal-content iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+  
+  

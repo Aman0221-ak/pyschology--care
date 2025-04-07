@@ -1,0 +1,59 @@
+.survey-form-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    background: linear-gradient(135deg, #f3f4f6, #ffffff);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .survey-form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  .survey-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .survey-form-container input,
+  .survey-form-container textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .survey-form-container input:focus,
+  .survey-form-container textarea:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+  .survey-form-container textarea {
+    min-height: 100px;
+  }
+  
+  .survey-form-container button {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .survey-form-container button:hover {
+    background-color: #005fa3;
+  }
+  

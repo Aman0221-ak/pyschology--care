@@ -1,0 +1,178 @@
+.header {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+/* Middle nav section (center aligned) */
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffc107;
+}
+
+
+/* Right section */
+.right-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Auth buttons */
+.auth-links {
+  display: flex;
+  gap: 0;
+}
+
+.auth-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 10px;
+  border: none;
+  background: none;
+  transition: color 0.3s ease;
+}
+
+.auth-links a:hover {
+  color: #ffc107;
+}
+
+/* Menu Icon */
+.menu-icon {
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #3f51b5;
+  border: 1px solid #444;
+  border-radius: 5px;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 160px;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  padding: 5px;
+}
+
+.dropdown-menu a,
+.logout-btn {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-menu a:hover,
+.logout-btn:hover {
+  color: #ffc107;
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.welcome-text {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.book-popup {
+  position: absolute;
+  top: 0;
+  right: 110%; /* Place it on the left */
+  background: linear-gradient(135deg, #f2f6fa, #dceeff);
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  max-width: 90vw; /* Prevent it from overflowing on smaller screens */
+  z-index: 999;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.book-popup .quote {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.book-now-popup-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: rgb(24, 23, 23);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.book-now-popup-btn:hover {
+  background-color: #0056b3;
+}
+.book-popup {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.book-popup.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.menu-hover-area {
+  position: relative;
+  display: inline-block;
+}
+
+
