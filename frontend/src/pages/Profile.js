@@ -30,7 +30,7 @@ const Profile = () => {
 
   const fetchProfile = useCallback(async () => {
     if (!token) {
-      return setLoading(false); // no redirect here, just skip fetch
+      return setLoading(false); 
     }
 
     try {

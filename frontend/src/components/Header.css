@@ -16,7 +16,7 @@
   margin-right: 40px;
 }
 
-/* Middle nav section (center aligned) */
+
 .nav-links {
   flex: 1;
   display: flex;
@@ -36,14 +36,14 @@
 }
 
 
-/* Right section */
+
 .right-section {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-/* Auth buttons */
+
 .auth-links {
   display: flex;
   gap: 0;
@@ -63,7 +63,7 @@
   color: #ffc107;
 }
 
-/* Menu Icon */
+
 .menu-icon {
   font-size: 20px;
   background: none;
@@ -73,7 +73,7 @@
   padding: 5px;
 }
 
-/* Dropdown Menu */
+
 .dropdown-menu {
   position: absolute;
   top: 45px;
@@ -126,13 +126,13 @@
 .book-popup {
   position: absolute;
   top: 0;
-  right: 110%; /* Place it on the left */
+  right: 110%; 
   background: linear-gradient(135deg, #f2f6fa, #dceeff);
   padding: 30px 40px;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   width: 350px;
-  max-width: 90vw; /* Prevent it from overflowing on smaller screens */
+  max-width: 90vw; 
   z-index: 999;
   text-align: center;
   box-sizing: border-box;

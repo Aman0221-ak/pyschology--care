@@ -89,7 +89,6 @@ const BookSession = () => {
     <div className="book-session-container">
       <h2>Book Your Session</h2>
 
-      {/* ✅ Alert */}
       {alertMessage && (
         <CustomAlert
           type={alertType}

@@ -47,7 +47,7 @@ const Orders = () => {
 
       if (res.ok) {
         alert("Booking cancelled.");
-        fetchBookings(); // refresh
+        fetchBookings(); 
       }
     } catch (err) {
       console.error("Cancel error:", err);
